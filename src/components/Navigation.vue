@@ -11,7 +11,6 @@ export default {
     name:"navigation",
 }
 </script>
-
 <style lang="scss" scoped>
 header{
     z-index:99;
@@ -19,7 +18,7 @@ header{
     background-color: #1e2139;
     @media (min-width: 900px) {
         min-height:100%;
-        min-width:90%;
+        // min-width:90%;
         flex-direction:column;
         border-radius:0 20px 20px 0;
     }
